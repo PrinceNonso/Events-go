@@ -12,13 +12,13 @@
 </head>
 <body>
   <div class="main-content">
-     <div class="hero-section text-center w3-pale-green">
-      <nav class="navbar navbar-expand-lg sticky-top navbar-light w3-white w3-card rounded-md-pill">
+     <div class="hero-section bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light rounded-md-pill">
         <div class="container-fluid" style="padding:0.1% 5%;">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Events Go</a>
+          <a class="navbar-brand w3-text-grey" href="#">Events Go</a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -27,7 +27,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active" aria-current="page" href="/user/signup.html">
                     <button class="btn w3-pale-red w3-text-red custom-btn">Sign Up</button>
                 </a>
               </li>
@@ -35,17 +35,71 @@
           </div>
      </div>
      </nav>
-        <div class="row">
-           <div class="col-12 p-2">
-            <h1 class="hero-title display-1 w3-text-white">Lets Get You Scheduled </h1><br>
-            <p class="w3-text-green">Get Access to over 1000 events across the globe</p>
-            <button class="hero-btn btn btn-lg p-3 w3-pale-green w3-text-green rounded-pill">Get Started</button>
+        <div class="row ">
+           <div class="col-12 col-md-6">
+            <div class="hero-content">
+              <h1 class="hero-title display-1 w3-text-green mb-2">A Scheduler <br/>For Your Events</h1>
+              <p class="w3-text-grey">Get Access to over 1000 events across the globe</p><br><br>
+              <button class="hero-btn btn btn-lg p-2 w3-pale-green w3-text-green mb-5">Get Started</button>
+            </div>
            </div>
            <div class="col-12 col-md-6 d-none d-md-block text-center">
+             <img src="./images/phone.png" alt="" class="img-fluid">
            </div>
         </div>
      </div>
-     <div class="about w3-card-2 pt-5" id="about">
+     <div class="services container p-3 pt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 p-3 ">
+         <div class="w3-center d-none d-lg-block">
+          <img src="./images/casl.png" alt="" srcset="" class="img-fluid">
+         </div>
+        </div>
+        <div class="col-12 col-md-5 p-3">
+          <h3 class="w3-text-green">Why Choose Events Go</h3><br>
+          <div>
+             <div class="p-3 w3-card rounded">
+               <span><i class="bi bi-calendar-date w3-text-green" style="font-size: 20px;"></i></span>
+               <h5 class="w3-text-grey">A Good Schedule</h5>
+               <!-- <p class="w3-text-grey">Lorem ipsum dolor sit amet.</p> -->
+             </div><br>
+             <div class="p-3 w3-card rounded">
+              <span><i class="bi bi-diagram-3 w3-text-green" style="font-size: 20px;"></i></span>
+              <h5 class="w3-text-grey">Host Events</h5>
+              <!-- <p class="w3-text-grey">Lorem ipsum dolor sit amet.</p> -->
+            </div><br>
+            <div class="p-3 w3-card rounded">
+              <span><i class="bi bi-ticket-perforated w3-text-green" style="font-size: 20px;"></i></span>
+              <h5 class="w3-text-grey">Sell Tickets</h5>
+              <!-- <p class="w3-text-grey">Lorem ipsum dolor sit amet.</p> -->
+            </div><br>
+          </div>
+       </div>
+    </div>
+     </div>
+    <div class="w-100 bg-light">
+      <div class="get-started p-5">
+        <h3 class="w3-text-grey display-6 w3-center">How To Get Started</h3><br><br>
+        <div class="row">
+          <div class="col-12 col-md-4 p-2">
+         <div class="w3-card bg-dark p-3 steps w3-hover-white">
+           <h5  class="w3-text-grey "> <span class="w3-text-green">01.</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, magnam!</h5>
+         </div>
+         </div>
+          <div class="col-12 col-md-4 p-2">
+           <div class="w3-card steps bg-dark p-3 w3-hover-white">
+             <h5  class="w3-text-grey"> <span class="w3-text-green">02.</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, magnam!</h5>
+           </div>
+          </div>
+         <div class="col-12 col-md-4 p-2">
+           <div class="w3-card steps bg-dark p-3 w3-hover-white">
+             <h5  class="w3-text-grey"> <span class="w3-text-green">03.</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, magnam!</h5>
+           </div>
+          </div>
+        </div>
+    </div>
+    </div>
+     <div class="about pt-5" id="about">
       <div class="row">
           <div class="col-12 col-md-3"></div>
           <div class="col-12 col-md-6 text-center">
@@ -55,6 +109,17 @@
           <div class="col-12 col-md-3"></div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="contact">
+        <div class="row">
+          <div class="col-md-4 col-12"></div>
+          <div class="col-md-4 col-12">
+
+          </div>
+          <div class="col-md-4 col-12"></div>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
