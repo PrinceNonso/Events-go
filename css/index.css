@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 *{
     font-family: monospace;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Fredoka', sans-serif;
 }
 .custom-btn{
     min-width:100px;
     border-radius: 10px;
 }
 .hero-section{
-    padding: 2% 6%;
+    padding:auto 6%;
     width: 100%;
-    min-height:80vh;
+    min-height:90vh;
     position: relative;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/img.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -51,10 +55,10 @@
 }
 
 .hero-btn{
-    min-width:250px;
+    min-width:200px;
 }
 .hero-title{
-    margin-top: 10%;
+    margin-top: 1%;
 }
 .about{
     min-height: 80vh;
@@ -63,4 +67,23 @@
 .img-fluid{
     height: 75vh;
     margin: auto;
+}
+.services,.get-started{
+    min-height: 75vh;
+}
+
+.get-started{
+    width: 80%;
+    margin: auto;
+}
+.steps{
+    min-height: 30vh;
+    transition: all ease 0.2s;
+}
+.steps:hover{
+    transform: scale(1.07);
+}
+.hero-content{
+    padding-top: 5%;
+    padding-left: 10%;
 }
