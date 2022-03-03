@@ -1,0 +1,47 @@
+.search{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: .5%;
+}
+
+.img-container{
+    max-height:30vh;
+    position: relative;
+}
+.my-overlay{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    animation-name: overlay-animation;
+    animation-duration: 1.5s;
+}
+.all-events{
+    min-height: 100vh;
+}
+.img-container:hover .my-overlay{
+    display: block;
+}
+.img-fluid{
+    height: 30vh;
+    width: 100vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tag{
+    min-width: 25%;
+    margin:2px 10px;
+    font-size: 10px;
+}
+@keyframes overlay-animation {
+    0%   {opacity: 0.7;}
+    100% {opacity: 1;}
+  }
