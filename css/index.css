@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5{
     margin-top: 1%;
 }
 .about{
-    min-height: 80vh;
+    min-height: 60vh;
     width: 100%;
 }
 .img-fluid{
@@ -86,4 +86,37 @@ h1,h2,h3,h4,h5{
 .hero-content{
     padding-top: 5%;
     padding-left: 10%;
+}
+.modal{
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+}
+
+input{
+    margin-bottom: 10px;
+    width: 85%;
+    border-width: 2px;
+    border: none;
+    border-color:white ;
+    color: #DDFFDD;
+    outline: none;
+    transition: all ease-in 0.2s;
+}
+input:focus,select:focus{
+    width: 95%;
+    border-color: green;
+}
+.rounded-btn{
+    border-radius: 7px;
+}
+.modal-content{
+    margin-top: 15%;
+    max-height: 50vh;
+    border-radius: 15px;
+}
+.text-area{
+    min-height: 70px;
+    color: #DDFFDD;
+    outline: none;
+    resize: none;
 }
